@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #ffcccc;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+section {
+    padding: 20px;
+    margin: 20px 0;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#home {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #ffe6e6;
+    color: #333;
+    margin: 0;
+}
+
+#home h1 {
+    font-size: 36px;
+    color: #ff6666;
+}
+
+#home p {
+    font-size: 20px;
+    margin-top: 10px;
+    color: #ff6666;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: #333;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul li {
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #ffccff;
+    color: #fff;
+    border-radius: 8px;
+    font-size: 18px;
+}
+
+.project {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.project h3 {
+    font-size: 24px;
+    color: #ff6699;
+}
+
+.project p {
+    margin: 10px 0;
+}
+
+.project a {
+    color: #ff6699;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.project-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input,
+form textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+form button {
+    padding: 10px;
+    background-color: #ff9999;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #ff6666;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #ffcccc;
+    color: #fff;
+    margin-top: 20px;
+}
